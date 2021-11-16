@@ -32,11 +32,11 @@ describe ("Grading Tests: ", function () {
    });
 
    it("HTML includes the correct number of certain elements", function() {
-         let pElements = container.body.getElementsByTagName("P").length;
-         let headerElements = container.body.getElementsByTagName("Header").length;
-         let footerElements = container.body.getElementsByTagName("Footer").length;
-         let mainElements = container.body.getElementsByTagName("Main").length;
-         let articleElements = container.body.getElementsByTagName("Article").length;
+         let pElements = container.body.getElementsByTagName("p").length;
+         let headerElements = container.body.getElementsByTagName("header").length;
+         let footerElements = container.body.getElementsByTagName("footer").length;
+         let mainElements = container.body.getElementsByTagName("main").length;
+         let articleElements = container.body.getElementsByTagName("article").length;
          let imageElements = container.body.getElementsByTagName("img").length;
 
          expect(pElements).toBeGreaterThanOrEqual(1);
